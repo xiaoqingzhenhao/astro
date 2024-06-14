@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
+import HeaderNavigation from "../components/Nav.astro";
 ---
 
 <Layout title="这是一个astro页面">
@@ -33,10 +34,7 @@ import Card from "../components/Card.astro";
         </linearGradient>
       </defs>
     </svg>
-    <a href="/">首页</a>
-    <a href="/book">电子书</a>
-    <a href="/note">学习笔记</a>
-    <a href="/about">关于</a>
+    <HeaderNavigation></HeaderNavigation>
     <h1> <span class="text-gradient">关于</span></h1>
     <h2>欢迎使用Astro建立信息服务</h2>
     <p>这是我验证发布流程用的信息。</p>
